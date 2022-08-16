@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  nehawebapp:
+    image: nehamobiweb:appv1
+    build: .
+    container_name: nehawebc1
+    ports:
+      - 1381:80
+    restart: always
